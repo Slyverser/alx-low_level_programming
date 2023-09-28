@@ -17,14 +17,14 @@ int is_palindrome(char *s)
 }
 
 /**
- * _strien_recursion - return the length of a string
- * @s: string to calculate the length of 
+ * _strlen_recursion - return the length of a string
+ * @s: string to calculate the length of
  *
  * Return: length of the string
  */
 int _strlen_recursion(char *s)
 {
-	if(*s == '\0')
+	if (*s == '\0')
 		return (0);
 	return (1 + _strlen_recursion(s + 1));
 }
